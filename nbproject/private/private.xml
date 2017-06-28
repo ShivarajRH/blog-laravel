@@ -3,12 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/projects/blog2/resources/views/layouts/master.blade.php</file>
-            <file>file:/C:/xampp/htdocs/projects/blog2/resources/views/layouts/newhtml.html</file>
-            <file>file:/C:/xampp/htdocs/projects/blog2/app/Http/Controllers/PostsController.php</file>
-            <file>file:/C:/xampp/htdocs/projects/blog2/routes/web.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/app/Providers/EventServiceProvider.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/app/Providers/AppServiceProvider.php</file>
             <file>file:/C:/xampp/htdocs/projects/blog2/resources/views/layouts/blogsidebar.blade.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/resources/views/layouts/blocks/blogarchives.blade.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/app/Http/Controllers/PostsController.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/app/Post.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/app/Tag.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/resources/views/layouts/newhtml.html</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/routes/web.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/resources/views/layouts/master.blade.php</file>
             <file>file:/C:/xampp/htdocs/projects/blog2/resources/views/posts/create.blade.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/resources/views/posts/show.blade.php</file>
+            <file>file:/C:/xampp/htdocs/projects/blog2/app/Http/Controllers/TagsController.php</file>
         </group>
     </open-files>
 </project-private>

@@ -6,8 +6,18 @@
 @section ('content')
 	<div class="col-sm-8 blog-main">
 
-		<h1>{{$post->title}}</h1>
-    
+        <h1>{{$post->title}}</h1>
+        
+        <div class="">
+            @if (count($post->tags)>0)
+                <ul>
+                @foreach($post->tags as $tag)
+                    <li><a href="/posts/tags/{{$tag->name}}">{{ $tag->name }}</a></li>
+                @endforeach
+                </ul>
+            @endif
+        </div>
+        
     	{{$post->body}}
     	
     	<hr>

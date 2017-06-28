@@ -18,10 +18,15 @@ class AppServiceProvider extends ServiceProvider
     {
         //
         Schema::defaultStringLength(191);
-
+        
         //\View:: -shiva-20170608
         view()->composer('layouts.blogsidebar', function($view) {
-            $view->with('archives', \App\Post::archives());
+            
+            $archives= \App\Post::archives();
+            $tags= \App\Tag::has('posts')->get();
+            
+            $view->with(compact('archives','tags'));
+            
         });
 
     }

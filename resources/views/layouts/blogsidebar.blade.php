@@ -4,6 +4,7 @@
     
     @yield("blogabout")
     @yield("blogarchives")
+    @yield("blogtags")
     @yield("blogelsewhere")
     
 </div><!-- /.blog-sidebar -->

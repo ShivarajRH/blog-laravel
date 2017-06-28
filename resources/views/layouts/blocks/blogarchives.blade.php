@@ -20,6 +20,17 @@
     </div>
 @endsection
 
+@section("blogtags")
+    <div class="sidebar-module">
+        <h2>Tags</h2>
+        <ul>
+            @foreach($tags as $tag)
+            <li><a href="/posts/tags/{{$tag->name}}">{{ $tag->name }}</a></li>
+            @endforeach
+        </ul>
+    </div>
+@endsection
+
 @section("blogelsewhere")
 <div class="sidebar-module">
   <h4>Elsewhere</h4>
