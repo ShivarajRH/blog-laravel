@@ -29,6 +29,6 @@ class EventListenerNotifySubscribers
         //
         //var_dump($event->thread);
        // echo 'Event published';
-        var_dump($event->thread['new_name'] . ' Event published');
+        var_dump($event->thread['new_name'] . ' listener 1 called- Notify subscribers..!)');
     }
 }

@@ -27,7 +27,7 @@ class CheckForSpam implements ShouldQueue
     public function handle(EventThreadCreated $event)
     {
         
-        var_dump($event->thread['new_name'] . ' listener 1 called');
-        echo 'Checking for spam..!';
+        var_dump($event->thread['new_name'] . ' listener 2 called - Checking for spam..!)');
+        
     }
 }
